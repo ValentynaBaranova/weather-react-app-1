@@ -1,21 +1,26 @@
-import logo from "./logo.svg";
+import Search from "./Search";
+import React from "react";
+import Forecast from "./Forecast";
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Проект по Реакт</p>
+      <div className="weather-app">
+        <Search />
+        <Forecast />
+      </div>
+      <p className="footer">
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/ValentynaBaranova/my-ap-Weather"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
-        </a>
-      </header>
+          Open-sourse code
+        </a>{" "}
+        by Valentyna Baranova
+      </p>
     </div>
   );
 }
