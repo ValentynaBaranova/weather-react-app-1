@@ -13,7 +13,7 @@ function App() {
       </div>
       <p className="footer">
         <a
-          href="https://github.com/ValentynaBaranova/my-ap-Weather"
+          href="https://github.com/ValentynaBaranova/weather-react-app-1"
           target="_blank"
           rel="noreferrer"
         >
